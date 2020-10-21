@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="menu"
+        android:icon="@drawable/ic_menu"
+        app:showAsAction="always">
+    <menu>
+
+
+    <item
+        android:id="@+id/itemTrocarCamera"
+        android:icon="@drawable/ic_flip"
+        android:title="Trocar Câmera"
+        android:orderInCategory="10"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/itemUmBomSono"
+        android:icon="@drawable/ic_bom_sono"
+        android:title="Dormir bem"
+        android:orderInCategory="20"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/itemSobre"
+        android:iconTint="@drawable/ic_sobre"
+        android:icon="@drawable/ic_sobre"
+        android:title="Sobre"
+        android:orderInCategory="30"
+        app:showAsAction="never"
+        />
+
+    </menu>
+    </item>
+</menu>
